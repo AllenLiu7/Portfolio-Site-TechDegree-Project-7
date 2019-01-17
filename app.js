@@ -1,5 +1,8 @@
 const express = require("express");
 const app = express();
+const { projects } = require('./data/projects.json');
+app.use('/static', express.static('public'));
+
 
 app.set("view engine", "pug");
 
