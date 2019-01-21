@@ -1,43 +1,49 @@
 {
 	"projects": [{
 		"id": "1",
-		"project_name": "",
-		"technologies": "",
+		"project_name": "Javascript",
+		"discription": "123123",
+		"technologies": [],
 		"live_link": "",
 		"github_link": "",
 		"image_urls": ""
 	}, {
 		"id": "2",
-		"project_name": "",
-		"technologies": "",
+		"project_name": "javascript2",
+		"discription": "",
+		"technologies": ["express", "HTML"],
 		"live_link": "",
 		"github_link": "",
 		"image_urls": ""
 	}, {
 		"id": "3",
 		"project_name": "",
-		"technologies": "",
+		"discription": "",
+		"technologies": [],
 		"live_link": "",
 		"github_link": "",
 		"image_urls": ""
 	}, {
 		"id": "4",
 		"project_name": "",
-		"technologies": "",
+		"discription": "",
+		"technologies": [],
 		"live_link": "",
 		"github_link": "",
 		"image_urls": ""
 	}, {
 		"id": "5",
 		"project_name": "",
-		"technologies": "",
+		"discription": "",
+		"technologies": [],
 		"live_link": "",
 		"github_link": "",
 		"image_urls": ""
 	}, {
 		"id": "6",
 		"project_name": "",
-		"technologies": "",
+		"discription": "",
+		"technologies": [],
 		"live_link": "",
 		"github_link": "",
 		"image_urls": ""
