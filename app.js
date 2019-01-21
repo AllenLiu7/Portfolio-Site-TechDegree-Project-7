@@ -17,9 +17,9 @@ app.get("/about", (req, res) => {
     res.render('about');
 })
 
-app.get("/:id", (req, res) => {
+app.get("/projects/:id", (req, res) => {
     res.render('project', {
-        projects,
+        projects: projects,
         index: req.params.id
     });
 })

@@ -1,51 +1,51 @@
 {
 	"projects": [{
 		"id": "1",
-		"project_name": "Javascript",
-		"discription": "123123",
-		"technologies": [],
+		"project_name": "Random Quote Generator",
+		"discription": "In this project, I have practiced the knowledge of basic JavaScript syntax and data structures by building a Random Quote Generator, a program that displays a randomly selected quote each time the user clicks a button.",
+		"technologies": ["HTML", "CSS", "Javascript"],
 		"live_link": "",
-		"github_link": "",
+		"github_link": "https://github.com/AllenLiu7/TD-Project-1.git",
 		"image_urls": ""
 	}, {
 		"id": "2",
-		"project_name": "javascript2",
-		"discription": "",
-		"technologies": ["express", "HTML"],
+		"project_name": "Pagination & Content Filter",
+		"discription": " In this project, I have enhanced the usability of a web page that contains a long list by employing JavaScript to dynamically divide the list into 'pages'. Added a search feature to display only the students that match the search criteria.",
+		"technologies": ["HTML", "CSS", "Javascript", "jQuery"],
 		"live_link": "",
-		"github_link": "",
+		"github_link": "https://github.com/AllenLiu7/TD-Project-2.git",
 		"image_urls": ""
 	}, {
 		"id": "3",
-		"project_name": "",
-		"discription": "",
-		"technologies": [],
+		"project_name": "Build an Interactive Form",
+		"discription": "Full Stack JavaScript developers create forms to collect information from users for nearly every website and application they build. For this project, I have used my skills to enhance a form so that it’s engaging, interactive, and easy to use.",
+		"technologies": ["HTML", "CSS", "Javascript", "jQuery"],
 		"live_link": "",
-		"github_link": "",
+		"github_link": "https://github.com/AllenLiu7/TD-Project-3.git",
 		"image_urls": ""
 	}, {
 		"id": "4",
-		"project_name": "",
-		"discription": "",
-		"technologies": [],
+		"project_name": "Tic-Tac-Toe",
+		"discription": "In this project, I have built a functional Tic Tac Toe game with AI opponent. I'll use the provided mockups, HTML, CSS and image files to create a game that requires players to add their names, take turns adding an X or O to the game board, and announce when the game ends. I have kept track of the state of the game -- whose turn it is, where the X's and O's are on the board, and whether the game is a draw or, if not, who won and lost.",
+		"technologies": ["HTML", "CSS", "Javascript", "jQuery"],
 		"live_link": "",
-		"github_link": "",
+		"github_link": "https://github.com/AllenLiu7/TD-Project-4.git",
 		"image_urls": ""
 	}, {
 		"id": "5",
-		"project_name": "",
-		"discription": "",
-		"technologies": [],
+		"project_name": "Use a Public API to Create an Employee Directory ",
+		"discription": "In this project, I have used the Random User Generator API (https://randomuser.me/) to grab information for 12 random “employees,” and used that data to build a prototype for an Awesome Startup employee directory. I have requested a JSON object from the API and parse the data so that 12 employees are listed in a grid with their thumbnail image, full name, email, and location. Clicking the employee’s image or name will open a modal window with more detailed information, such as the employee’s birthday and address.",
+		"technologies": ["HTML", "CSS", "Javascript", "jQuery"],
 		"live_link": "",
-		"github_link": "",
+		"github_link": "https://github.com/AllenLiu7/TD-Project-5.git",
 		"image_urls": ""
 	}, {
 		"id": "6",
-		"project_name": "",
-		"discription": "",
-		"technologies": [],
+		"project_name": "Build a Content Scraper ",
+		"discription": "In this project, I’ve been given the task to create a Node.js command line application that goes to an ecommerce site to get the latest prices and save them to a spreadsheet (CSV format). I have writen the application as if the spreadsheet will be used by another application to populate a database. The application I built will run once every day. I have used npm modules to assist me in the project. I have to research and use npm packages that will help me scrape a website and create a CSV file.",
+		"technologies": ["Node.js", "Javascript", "npm"],
 		"live_link": "",
-		"github_link": "",
+		"github_link": "https://github.com/AllenLiu7/TD-Project-6.git",
 		"image_urls": ""
 	}]
 }
