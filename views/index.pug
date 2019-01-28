@@ -22,7 +22,7 @@ block content
       each project, index in projects
         .cell
           - var id = index + 1
-          a(href='https://arcane-falls-72956.herokuapp.com//projects/' + id)
+          a(href='https://arcane-falls-72956.herokuapp.com/projects/' + id)
             img.thumbnail(src='https://arcane-falls-72956.herokuapp.com/static/images/project' + projects[index].id + '_1.jpg')
             - var projectname = projects[index].project_name
             h5= projectname
