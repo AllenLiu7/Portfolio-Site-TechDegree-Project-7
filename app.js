@@ -9,20 +9,20 @@ if (port == null || port == "") {
 const { projects } = require('./data.json');
 
 
-app.use('/static', express.static('public'));
+app.use('static', express.static('public'));
 
 
 app.set("view engine", "pug");
 
-app.get("/", (req, res) => {
+app.get("", (req, res) => {
     res.render('index', {projects, port});
 })
 
-app.get("/about", (req, res) => {
+app.get("about", (req, res) => {
     res.render('about', {port});
 })
 
-app.get("/projects/:id", (req, res) => {
+app.get("projects/:id", (req, res) => {
     res.render('project', {
         projects,
         index: req.params.id,
