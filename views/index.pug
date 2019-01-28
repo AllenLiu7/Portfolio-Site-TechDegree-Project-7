@@ -22,8 +22,8 @@ block content
       each project, index in projects
         .cell
           - var id = index + 1
-          a(href='http://localhost:3000/projects/' + id)
-            img.thumbnail(src='http://localhost:3000/static/images/project' + projects[index].id + '_1.jpg')
+          a(href='http://localhost:' + port + '/projects/' + id)
+            img.thumbnail(src='http://localhost:' + port + '/static/images/project' + projects[index].id + '_1.jpg')
             - var projectname = projects[index].project_name
             h5= projectname
       
