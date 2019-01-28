@@ -9,7 +9,7 @@ if (port == null || port == "") {
 const { projects } = require('./data.json');
 
 
-app.use('static', express.static('public'));
+app.use('/static', express.static('public'));
 
 
 app.set("view engine", "pug");
